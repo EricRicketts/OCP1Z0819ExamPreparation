@@ -23,5 +23,5 @@
 hs_err_pid*
 
 # target and .idea directories
-*/target/
-*/.idea/
+target/
+.idea/

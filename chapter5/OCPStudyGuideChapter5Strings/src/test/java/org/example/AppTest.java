@@ -135,11 +135,41 @@ public class AppTest {
     }
 
     @Test
-    public void testDeleteDeleteCharAt() {
-        // "animals
+    public void testDeleteDeleteCharAtForStringBuilder() {
         String[] expected = new String[]{"anals", "anas"};
         String[] results = new String[]{strBuilder.delete(2, 4).toString(), strBuilder.deleteCharAt(3).toString()};
 
         assertArrayEquals(expected, results);
     }
+
+    @Test
+    public void testReplaceForStringBuilder() {
+        String expected = "pigsty dirty";
+        StringBuilder strB = new StringBuilder("pigeon dirty");
+        strB.replace(3, 6, "sty");
+
+        assertEquals(expected, strB.toString());
+    }
+
+    @Test
+    public void testDoubleEqualsForString() {
+        boolean[] expected = new boolean[]{true, true};
+        String x = "foo";
+        String y = "foo";
+        // they are equal (==) here because x and y point to the same object in the String pool
+        boolean[] results = new boolean[]{x == y, x.equals(y)};
+
+        assertArrayEquals(expected, results);
+    }
+
+    @Test
+    public void testEqualityForStringBuilder() {
+        boolean[] expected = new boolean[]{false, true};
+        StringBuilder x = new StringBuilder("foo");
+        StringBuilder y = new StringBuilder("foo");
+        boolean[] results = new boolean[]{x == y, x.toString().equals(y.toString())};
+
+        assertArrayEquals(expected, results);
+    }
+
 }

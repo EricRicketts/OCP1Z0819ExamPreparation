@@ -16,9 +16,11 @@ import static org.junit.jupiter.api.Assertions.*;
 public class AppTest {
 
     String str;
+    StringBuilder strBuilder;
     @BeforeEach
     public void setUp() {
         str = "animals";
+        strBuilder = new StringBuilder("animals");
     }
 
     @Test
@@ -123,5 +125,21 @@ public class AppTest {
         b.append("f").append("g");
         assertEquals(a, b);
         assertEquals("abcdefg", b.toString());
+    }
+
+    @Test
+    public void testInsert() {
+        strBuilder.insert(4, "-");
+
+        assertEquals("anim-als", strBuilder.toString());
+    }
+
+    @Test
+    public void testDeleteDeleteCharAt() {
+        // "animals
+        String[] expected = new String[]{"anals", "anas"};
+        String[] results = new String[]{strBuilder.delete(2, 4).toString(), strBuilder.deleteCharAt(3).toString()};
+
+        assertArrayEquals(expected, results);
     }
 }

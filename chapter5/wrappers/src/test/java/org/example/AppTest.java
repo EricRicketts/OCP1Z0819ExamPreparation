@@ -3,7 +3,10 @@ package org.example;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
+import static java.util.List.*;
 import static org.junit.jupiter.api.Assertions.*;
 
 
@@ -19,7 +22,7 @@ public class AppTest
 
     @Test
     public void testConvertStringToWrapper() {
-        Integer expected = new Integer(11);
+        int expected = 11;
         assertEquals(expected, Integer.valueOf("11"));
     }
 
@@ -37,8 +40,18 @@ public class AppTest
 
     @Test
     public void testAutoUnboxing() {
-        double i = new Integer(1);
+        double i = Integer.valueOf(1);
         double j = 1.0;
         assertEquals(j, i);
     }
+
+    @Test
+    public void testArrayAsListReturnsFixedList() {
+        String[] array = new String[]{"foo", "bar"};
+        List<String> list = Arrays.asList(array);
+        assertThrows(UnsupportedOperationException.class, () -> {
+            list.add("fizz");
+        });
+    }
+
 }

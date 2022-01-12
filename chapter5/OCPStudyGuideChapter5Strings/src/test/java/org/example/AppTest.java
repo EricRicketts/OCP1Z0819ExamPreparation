@@ -15,12 +15,15 @@ import static org.junit.jupiter.api.Assertions.*;
  */
 public class AppTest {
 
-    String str;
+    String str, str1, str2, str3;
     StringBuilder strBuilder;
     @BeforeEach
     public void setUp() {
         str = "animals";
         strBuilder = new StringBuilder("animals");
+        str1 = "rat" + 1;
+        str2 = "r" + "a" + "t" + "1";
+        str3 = "r" + "a" + "t" + new String("1");
     }
 
     @Test
@@ -172,4 +175,11 @@ public class AppTest {
         assertArrayEquals(expected, results);
     }
 
+    @Test
+    public void testStringPool() {
+        boolean[] expected = new boolean[]{true, true, false, true};
+        boolean[] results = new boolean[]{str1 == str2, str1 == str2.intern(), str2 == str3, str2 == str3.intern()};
+
+        assertArrayEquals(expected, results);
+    }
 }

@@ -1,25 +1,27 @@
-1.	F	
-2.	A, C, D	
-3.	A, C, E	
-4.	B	
-5.	F	
-6.	B	
-7.	E	
-8.	A, D, E	
-9.
-10.
-11.
-12.
-13.
-14.
-15.
-16.
-17.
-18.
-19.
-20.
-21.
-22.
-23.
-24.
-25.
+1.	F - correct!!	
+2.	A, C, D	- correct!! 
+3.	A, C, E	- incorrect: A, C, F
+4.	B - correct!!	
+5.	F - incorrect: G 
+6.	B - correct!!	
+7.	E - incorrect: A, B, F	
+8.	A, D, E - correct!!	
+9.	C, F - correct!!
+10.	A, G - correct!!	
+11.	A - correct!!	
+12. E - incorrect: F 
+13. A, C - correct!! 
+14. E - incorrect: C, E, F	
+15. A, H - correct!!
+16.	A, E, F, G - incorrect: A, F, G	
+17.	F - correct!!	
+18. C - correct!!
+19. E - incorrect: A, F 
+20. C, E - incorrect: B, C, E	
+21.	D - correct!!
+22. A, D - incorret: A, B, D 
+23. B - correct!!	
+24. D, E - correct!! 
+25.	A, B, D - correct!! 
+
+16/25

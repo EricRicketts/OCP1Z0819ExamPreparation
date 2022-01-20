@@ -1,0 +1,28 @@
+1.	E, F - incorrect: E	
+2.	B, C - correct!! 
+3.	B - incorrect: F 
+4.	C - incorrect: F
+5.	G - incorrect: A
+6.	B, E - correct!! 
+7.	A, C - correct!! 	
+8.	C - correct!!	
+9.	A, D - incorrect: B, F 
+10.	E - incorrect: D 
+11.	B - incorrect: B, C, E	
+12.	A, B, C, E, F - incorrect: A, B, E, F	
+13.	B, C, G - incorrect: A, G	
+14.	B, E, F - correct!!	
+15.	D - correct!!	
+16.	B - correct!!	
+17.	F - correct!!	
+18.	C, E, F - incorrect: C, F	
+19.	B, F - incorrect: C, F	
+20.	E - incorrect: F	
+21. C - incorrect: E	
+22.	B - incorrect: D	
+23.	E - incorrect: B 
+24.	A, B, D, E - incorrect: A, D, F 
+25. C - correct!! 
+26.	C - incorrect: F 
+
+9/25

@@ -10,11 +10,13 @@ public class AppTest {
     Bird bird;
     Stork stork;
     AnotherStork anotherStork;
+    Panda panda;
     @BeforeEach
     public void setUp() {
         bird = new Bird("Tweety");
         stork = new Stork("Sam");
         anotherStork = new AnotherStork("Steve");
+        panda = new Panda();
     }
 
     @Test
@@ -28,5 +30,13 @@ public class AppTest {
     @Test
     public void testAbstractClassBird() {
         assertEquals("Steve", anotherStork.returnName());
+    }
+
+    @Test
+    public void testAbstractBearClassConstructorCalled() {
+        String[] expected = new String[]{"medium", "yummy"};
+        String[] results = new String[]{panda.getPawSize(), panda.chew()};
+
+        assertArrayEquals(expected, results);
     }
 }

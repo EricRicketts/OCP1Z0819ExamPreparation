@@ -5,6 +5,6 @@ public interface Soar {
     boolean UNDERWATER = true;
     int fly(int speed);
     int takeoff(int takeoffSpeed);
-    int double div(double diveSpeed);
+    double dive(double diveSpeed);
 }
 

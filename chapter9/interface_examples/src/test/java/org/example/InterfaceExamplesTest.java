@@ -1,20 +1,26 @@
 package org.example;
 
-import static org.junit.Assert.assertTrue;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
-import org.junit.Test;
+import static org.junit.jupiter.api.Assertions.*;
 
-/**
- * Unit test for simple App.
- */
 public class InterfaceExamplesTest
 {
-    /**
-     * Rigorous Test :-)
-     */
+
+    UsingSoar usingSoar;
+    @BeforeEach
+    public void setUp() {
+        usingSoar = new UsingSoar();
+    }
+
     @Test
-    public void shouldAnswerWithTrue()
-    {
-        assertTrue( true );
+    public void testFlyInUsingSoar() {
+        assertEquals(5, usingSoar.fly(5));
+    }
+
+    @Test
+    public void testSoarConstantMaxHeight() {
+        assertEquals(10, Soar.MAX_HEIGHT);
     }
 }

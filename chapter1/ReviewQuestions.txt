@@ -1,41 +1,41 @@
-1.	B, E - correct!!	
+1.  B, E - correct!!
 
-2.	C, F - incorrect: C, D I misunderstood the question, my original answer was correct: C, D	
+2.  C, F - incorrect: C, D
 
-3.	C, D - correct!!	
+3.  C, D - correct!!
 
-4.	A, C, D	- incorrect: C, D A was meant to throw me off	
+4.  A, C, D - incorrect: C, D
 
-5.	A, D, E	 - incorrect: A, C, D, E the JVM is included in the JDK 
+5.  A, C, D, E - correct!!
 
-6.	D - incorrect: E, since Tank and Water are in the same package 
+6.  D - incorrect: E
 
-7. 	A, B, C - correct!!	
+7.  A, B, C - correct!!
 
-8.	A, B - correct!!	
+8.  A, B - correct!!
 
-9.	B - correct!! 
+9.  B - correct!!
 
-10.	E - correct!!	
+10. E - correct!!
 
-11.	C, D - correct!!  
+11. C, D - correct!!
 
-12. C, E - correct!! 
+12. C, E - correct!!
 
 13. C - correct!!
 
-14. A, B, E - incorect: A, B, C, E  the -cp option can be included with the jar command 
+14. A, B, E - incorrect: A, B, C, E
 
-15. D - incorrect: E, the main method is not static 
+15. C - incorrect: E
 
-16. B, D - incorrect: D, the package name represents any folders under the current path 
+16. B, D, F - incorrect: D
 
-17.	A, E - correct!!  
+17. A, E - correct!!
 
-18. C, E - incorrect: C, D, E we can have the import and then the class name 
+18. C, D, E - correct!!
 
 19. B, C - correct!!
 
 20. A, B, E - correct!!
 
-12/20 correct, not too bad since some of the questions were very tricky.
+14/20; 70% correct

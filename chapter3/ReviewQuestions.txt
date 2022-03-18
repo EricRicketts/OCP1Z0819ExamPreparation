@@ -1,0 +1,41 @@
+1.  A, D, G - correct!!
+
+2.  A - incorrect - A, B, D
+
+3.  B, C, D, F - correct!!
+
+4.  B - correct!!
+
+5.  A, C - correct!!
+
+6.  B - incorrect - F
+
+7.  D - correct!!
+
+8.  C - incorrect - A
+
+9.  A, D, E - correct!!
+
+10. B, C - incorrect - G
+
+11. D - correct!!
+
+12. D - correct!!
+
+13. F - correct!!
+
+14. B, E, G - correct!!
+
+15. D - correct!!
+
+16. B - correct!!
+
+17. C, F - correct!!
+
+18. C - correct!!
+
+19. B, F - correct!!
+
+20. A, D - incorrect - A, D, E
+
+15 / 20 = 75%
